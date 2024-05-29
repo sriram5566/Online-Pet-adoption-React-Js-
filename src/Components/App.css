@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Input Container */
+  .input-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue; /* Background color for the input container */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button.add-button,
+  button.update-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Pet Table */
+  .pet-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: lightblue; /* Background color for the table */
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+  }
+  
+  .pet-table th,
+  .pet-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .pet-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .pet-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  button.edit-button,
+  button.delete-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button.delete-button {
+    background-color: #dc3545;
+  }
+  
